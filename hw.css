@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-square {
+    width: 200px;
+    height: 200px;
+    border: solid black;
+    margin-right: 10px;
+}
+
+.small-squares {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.square {
+    width: 60px;
+    height: 60px;
+    border: solid black; 
+    cursor: pointer;
+}
